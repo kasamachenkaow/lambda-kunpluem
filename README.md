@@ -1,1 +1,12 @@
-# lambda-kunpluem
+# Agenda
+- Introduce Lambda
+- Runtime supported
+- Lambda execution context
+- Reserved vs Provisioned concurrency
+- Introduce SQS
+- Integrate with SQS+DLQ
+- Terraform | Deployment
+- Monitoring
+- Logging
+- Retry DLQ messages
+- Cost estimation

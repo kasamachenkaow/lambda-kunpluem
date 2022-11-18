@@ -1,0 +1,5 @@
+node_modules/*
+handler.zip
+outfile
+terraform/.terraform/*
+
