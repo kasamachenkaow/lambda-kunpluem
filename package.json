@@ -4,7 +4,7 @@
   "description": "- Introduce Lambda - Runtime supported - Lambda execution context - Reserved vs Provisioned concurrency - Introduce SQS - Integrate with SQS+DLQ - Terraform | Deployment - Monitoring - Logging - Retry DLQ messages - Cost estimation",
   "main": "index.js",
   "scripts": {
-    "build:zip": "zip handler.zip handler.js",
+    "build:zip": "zip handler.zip handler.js ddb-query.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

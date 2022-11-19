@@ -10,7 +10,11 @@ resource "aws_lambda_function" "test_lambda" {
 
   environment {
     variables = {
-      foo = "bar"
+      tableName = aws_dynamodb_table.ddb_table.name
     }
   }
+
+ depends_on = [
+    aws_iam_role_policy_attachment.lambda_logs
+  ]
 }
